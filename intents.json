@@ -1,0 +1,346 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hi",
+                "hy",
+                "Hiiiiiiiiiiiii",
+                "Heyyyyeyeye",
+                "Hello Sukkur IBA",
+                "Is anyone there?",
+                "Helloooooooo"
+            ],
+            "responses": [
+                "Hello! this is Sukkur IBA Reception. How can i Help you?",
+                "Hello, How may i help you?"
+            ]
+        },
+        {
+            "tag":"How are you ?",
+            "patterns":["How are you doing?","how about you?","how have you been?", "How is everything?", "what's up?"],
+            "responses":[
+                "thanks for asking :), i'm good, what about you?"
+            ]
+        },
+        {
+            "tag":"i'm good",
+            "patterns":[
+                "i am fine",
+                "i am good, how about you?",
+                "i am okay"
+            ],
+            "responses":[
+                "Cool..."
+            ]
+        },
+		{
+			"tag":"thanks",
+			"patterns":[
+                "thank you",
+                "thankyou",
+                "glad to see you",
+                "good to see you"
+            ],
+			"responses":[
+                "It's my responsbility"
+            ]
+		},
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "good bye",
+                "Allah-Hafiz",
+                "allah hafiz"
+            ],
+            "responses": [
+                "Thanks for visiting, Have a nice day."
+            ]
+        },
+        {
+            "tag": "facilities",
+            "patterns": [
+                "what facilities do you have?",
+                "what facilities do you provide?",
+                "what makes you unique?",
+                "what makes you different from other universities?",
+                "how are you different from others?"
+            ],
+            "responses": [
+                "As we have Craib Lab, Fab Lab, behavioural Lab, QEC, ORIC and highly qualified faculty"
+            ]
+        },
+        
+        {
+            "tag": "campus",
+            "patterns": [
+                "how many campuses you have?",
+                "how many Subbranches you have?"
+                
+            ],
+            "responses": [
+                "The University has established a total of 13 community colleges & public schools in Khairpur Mirs, Naushero Feroze, Dadu, Ubauro, Larkana, Shikarpur, Ghotki, Sukkur, Hyderabad and Jacobabad."
+            ]
+        },
+        {
+            "tag": "department",
+            "patterns": [
+                "how many departments you have in sukkur iba ?",
+                "i want department information",                
+                "what do you offer?",
+                "how many Programs do you have in sukkur iba?",
+                "how many Fields you have?",
+                "how many Courses you have?"
+            ],
+            "responses": [
+                "The university currently has seven departments,The departments offer degrees on bachelor, masters, and post-graduation levels in IBA Sukkur as well as the university offers short courses such as 3D animation, Graphic Designing, English, CSS Preparity class which help to enhance the skills "
+            ]
+        },
+        {
+            "tag": "fee structure",
+            "patterns": [
+                "what is the fees per semester?",
+                "how much do you charge per semester?",
+                "what is the fee structure?"
+            ],
+            "responses": [
+                "the fee structure is mainly:100,000 but it still depends on which program you are enrolled in "
+            ]
+        },
+        {
+            "tag": "eligiblity criteria",
+            "patterns": [
+                
+                "what is the admission criteria?",
+                "what is the eligiblity criteria to get the admission?",
+                "what are the requirements to get admission?"
+            ],
+            "responses": [
+                "Candidate must have Intermediate / F.Sc with a minimum of 50% marks passed in annual examination with no supplement and no subject (s) condoned by Board OR A level (at least an average of â€˜Câ€™ grade in three principal subjects) OR American High School Diploma (with minimum of 60%) OR An international Baccalaureate (at least 28 points out of 45)."
+            ]
+        },
+        {
+            "tag": "admission procedure",
+            "patterns": [
+                "what is admission procedure?",
+                "what is the procedure to get the admission?",
+                "what is the way to get Admission?",
+                "what is Admission process?"
+            ],
+            "responses":[
+                "first you need to fill the form and submit it then you need the clear the entrance test and after that you are required to pass the interview"
+            ]
+        },
+        {
+            "tag": "admission form",
+            "patterns": [
+                "how can i get admission form?",
+                "where can i find admission form?",
+                "where is admission form?",
+                "how to fill the admission form?"
+                
+            ],
+            "responses":[
+                "the form will be available online and also available in admission office"
+            ]
+        },
+        {
+            "tag": "connection",
+            "patterns": [
+                "Is IBA Sukkur same as IBA Karachi?",
+                "iba-karachi",
+                "do iba sukkur has any connection with iba karachi?",
+                "is sukkur iba a branch of iba karachi?",
+                "is sukkur iba affiliated with iba karachi?"
+
+            ],
+            "responses":[
+                "Sukkur IBA has no connection with IBA, Karachi in any terms, and the only thing they both share is the name else IBA, Karachi is totally separate entity and does not own nor has an affiliation with Sukkur IBA."
+            ]
+        },
+        {
+            "tag": "scholarships",
+            "patterns": [
+                "do iba provide scholarships?",
+                "are there any scholarships available?",
+                "how can i get scholarships?",
+                "can i get scholarships?"
+            ],
+            "responses": ["There are number of scholarships available which are awarded to needy students only and are based on the assessed need level. All students/applicants seeking financial assistance shall be facilitated on the basis of assessed need level."] 
+        },
+        {
+            "tag": "craib lab",
+            "patterns": [
+                "what is the purpose of craib lab?",
+                "what is craib lab?",
+                "what is the work of carib lab?"
+            ],
+            "responses":[
+                "The aim of CRAIB is to train and educate the students, researchers, industry, academia, and entrepreneurs to produce human resource with critical analysis skills, creative thinking, and entrepreneurial spirit in the fields of robotics, artificial intelligence, and blockchain."
+            ]
+        },
+        {
+            "tag": "Quality Enhancement Cell",
+            "patterns": [
+                "what is the meaning of qec?",
+                "what is the purpose of qec?",
+                "Quality Enhancement Cell?",
+                "what is QEC?"
+            ],
+            "responses": [
+                "Quality Enhancement Cell (QEC) is to improve the student learning experience through identifying specific areas for development. QEC encourage academic and support staff, and students collectively to share current good practice and to generate ideas and models for innovation in learning and teaching. The work of the Quality Enhancement Cell is planned and directed by the Quality Assurance Agency, Higher Education Commission (QAA-HEC) Pakistan. The cell at Sukkur IBA was established in June 2009 for enhancing quality of teaching and learning of various programmes of the Institute. The cell has started functioning successfully and progress has been documented and evaluated."
+            ]
+        },
+        {
+            "tag": "diploma",
+            "patterns": [
+                "do iba offers any diploma?",
+                "can i get admission in diploma?",
+                "certification",
+                "do iba offers any short courses?",
+                
+                "do iba offers any 6 months program?",
+                "do iba offers any skill development programs?"
+        ],
+        "responses":[
+            "sukkur iba offers diploma in machine learning and data science \n Certificate course in blockchain development \n Certificate course in applied cyber security and ethical hacking \n in addition to this, sukkur iba offers summer programs as well."
+        ]
+        },
+        {
+            "tag":"information about data center",
+            "patterns": [
+                "what is the purpose of data center?",
+                "what is the work of data center?",
+                "what is data center?"
+            ],
+            "responses":[
+                "This Data Center is conversion of old server rooms into Tier III standards / model. It will be first public sector University Data Center in which data and application will be hosted in secure environment. This Data Center is state-of-the-art modular, scalable and highly secure."
+            ]
+        },
+        {
+            "tag": "lab",
+            "patterns": [
+                "how many labs are there ?",
+                "laboratory",
+                "how many laboratories are there ?",
+                "how many labs do you have ?"
+            ],
+            "responses": [
+                "there are 14 laboratories in sukkur iba"
+            ]
+        },
+        {
+            "tag": " fab lab",
+            "patterns": [
+                "what is fab lab?",
+                "what is the purpose of fab lab?",
+                "what do fab lab do?",
+                "what is the work of fab lab?"
+            ],
+            "responses": [
+                "it support different educational and research programs related with the multiple scales of the human habitat. It is the place to learn about the principles, applications and implications of digital manufacturing technology."
+            ]
+        },
+        {
+            "tag": "Office of Research, Innovation and Commercialization",
+            "patterns": [
+                "what is Office of Research, Innovation and Commercialization",
+                "oric stands for?",
+                "what is full form of oric?",
+                "what is the purpose of oric?"
+
+            ],
+            "responses": [
+                "The Office of Research, Sukkur IBA (ORIC) provides strategic and operational support to all research activities/program at the campus and has a central role in facilitating the University-Industry linkages for commercialization of research. Research at higher educational institutes, such as universities and research and policy making institutes drives the economy of any nation by building strong ties between academia and industry. One such collaborative platform has been established at Sukkur IBA in the name of Office of Research, Innovation and Commercialization abbreviated as ORIC. ORIC has mandate to enhance and promote the environment of research at Sukkur IBA."
+            ]
+        },
+        {
+            "tag": "mission",
+            "patterns": [
+                "what is the mission of sukkur IBA?"
+            ],
+            "responses":[
+                "The mission of Sukkur IBA is to contribute and serve community by imparting knowledge through innovative teaching and applied research at the global levels of excellence. We aim to establish and sustain a competitive meritorious environment by strengthening faculty and using state-of-the-art technology to produce graduates with analytical & creative thinking, leadership skills and entrepreneurial spirit, who possess global outlook and are conscious of ethical values."
+            ]
+        },
+        {
+            "tag":"tests per year",
+            "patterns": [ 
+                "how many tests iba conducts per year?",
+                "test",
+                "entrance tests"
+            ],
+            "responses":[
+                "Sukkur IBA conducts 4 tests per year \n NTHP test \n STHP test \n foundation test \n Direct test"
+            ]
+        },
+        {
+            "tag": "EXECUTIVE DEVELOPMENT CENTER",
+            "patterns": [ 
+                "what is the purpose of edc?",
+                "what is the work of edc?", 
+                "what is edc?",
+                "edc stands for?",
+                "what is the full form of edc?",
+                "what is EXECUTIVE DEVELOPMENT CENTER?"
+            ],
+            "responses":[
+                "To assist business organization through consultancy and executive education, Sukkur IBA established Executive Development Center in 2013, to provide technical and managerial skills development training programme to corporate sector as well as public sector employees."
+            ]
+        },
+        {
+            "tag": "office timing",
+            "patterns": [
+                "what are the office timings of sukkur iba university?",
+                "when can i contact iba?"
+            ],
+            "responses": [
+                "the official office timing is 9:00 AM to 5:00 PM"
+            ]
+        },
+        {
+            "tag": "hostel facilities",
+            "patterns": [
+                "do iba provide any hostel facilities for students?",
+                "do iba have any hostels? ",
+                "do sukkur iba have accomodation facilities for students?",
+                "hostel"
+            ],
+            "responses": [
+                "Sukkur IBA offer on the campus accommodation facility to the male and female students, faculty and staff of the institute. The hostel rooms provided are well equipped with all facilities important for a comfortable living."
+            ]
+
+        },
+        {
+            "tag":"contact details",
+            "patterns": [
+                "tell me contact details of sukkur iba?",
+                "what is the contact number of sukkur iba university? ",
+                "what is the office number of iba?",
+                "what is the email address of sukkur iba?",
+                "what is the address of sukkur iba university?"
+            ],
+            "responses": [
+                "address: Nisar Ahmed Siddiqui Road Sukkur Sindh, Pakistan \n Telephone: 071-5644000-05 \n Email: info@iba-suk.edu.pk"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "help me?",
+                "i need some information",
+                "can you help me?",
+                "i need some help?"
+            ],
+            "responses": [
+                "hello sir, how may i help you?"
+            ]
+                
+
+        }
+        
+	]
+}
